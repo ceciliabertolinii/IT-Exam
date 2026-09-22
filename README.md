@@ -12,11 +12,11 @@ Cavity leakage ($\kappa = 0$) and spontaneous decay of the atom ($\gamma = 0$) a
 ## How to use
 1. Clone this repository.
 ```bash
-git clone https://github.com/ceciliabertolinii/IT-Exam/tree/main
+git clone https://github.com/ceciliabertolinii/IT-Exam
 ```
 2. Enter the project folder and create a virtual environment.
 ```bash
-cd nome-del-progetto
+cd IT-Exam
 python -m venv venv
 ```
 3. Install required libraries.
