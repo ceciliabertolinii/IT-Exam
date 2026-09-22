@@ -10,9 +10,9 @@ Cavity leakage ($\kappa = 0$) and spontaneous decay of the atom ($\gamma = 0$) a
 * Python 3.x installed on your computer.
 
 ## How to use
-1. Clone this repository executing the command
+1. Clone this repository.
 ```bash
-git clone <link-della-tua-repository>
+git clone https://github.com/ceciliabertolinii/IT-Exam/tree/main
 ```
 2. Enter the project folder and create a virtual environment.
 ```bash
