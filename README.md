@@ -23,8 +23,13 @@ python -m venv venv
 ```bash
  pip install -r requirements.txt
  ```
-4. Execute the command:
+4. To run the python script, execute the command:
  ```bash
  python3 prob_distribution.py
  ```
+5. To run the notebook, execute the command:
+```bash
+ jupyter notebook
+ ```
+then open the file .ipynb and run all the cells. 
    
