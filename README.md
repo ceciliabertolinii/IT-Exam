@@ -14,10 +14,11 @@ Cavity leakage ($\kappa = 0$) and spontaneous decay of the atom ($\gamma = 0$) a
 ```bash
 git clone https://github.com/ceciliabertolinii/IT-Exam.git
 ```
-2. Enter the project folder and create a virtual environment.
+2. Enter the project folder, create and activate a virtual environment.
 ```bash
 cd IT-Exam
 python -m venv venv
+source venv/bin/activate
 ```
 3. Install required libraries.
 ```bash
