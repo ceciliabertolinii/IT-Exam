@@ -1,6 +1,5 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import time
 
 # Define function to compute the probability distribution
 def compute_photon_distribution(m_max, gT=0.45):
@@ -27,8 +26,6 @@ def compute_photon_distribution(m_max, gT=0.45):
 
     return saved_distributions
 
-start = time.time()
-
 # Parameters
 gT = float(input("Insert coupling gT: ")) # Ask for coupling value
 ms = [2, 5, 30, 100, 1000] # List of requested m values
@@ -41,7 +38,7 @@ for m in ms:
     prob_sum = np.sum(P_n)
     n_peak = np.argmax(P_n)
     peak_value = P_n[n_peak]
-    print(f"Per m = {m:4d} -> Somma P(n): {prob_sum:.6f} | Picco massimo a n = {n_peak} (Valore: {peak_value:.4f})")
+    print(f"Per m = {m:4d} -> Sum P(n): {prob_sum:.6f} | Peak for n = {n_peak} (Value: {peak_value:.4f})")
 
     max_n_to_show = max(int(np.max(np.where(P_n > 1e-4))) + 5, 10) # Display only the significant portion of the plot (prob > 1e-4)
     n_axis = np.arange(max_n_to_show) 
